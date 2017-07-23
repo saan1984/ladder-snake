@@ -1,0 +1,66 @@
+
+#player{
+    color: white;
+    height: 27px;
+    width: 31px;
+    left:0px;
+    bottom: 0px;
+    padding: 7px 0px 0px 0px;
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid red;
+    position: absolute;
+    box-shadow: 1px 1px 1px grey;
+    background: red;
+    transition: all 2s ease;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background: lightslategray;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+#ladder{
+    top: 179px;
+    position: absolute;
+    width: 56px;
+    height: 333px;
+    left: 361px;
+    transform: rotate(37deg);
+}
+
+#snake{
+    top: 10px;
+    position: absolute;
+    width: 227px;
+    height: 571px;
+    left: 72px;
+}
+#snake2{
+    top: 247px;
+    position: absolute;
+    width: 227px;
+    height: 343px;
+    left: 358px;
+}
+.flex-box {
+    border: 1px solid grey;
+    display: flex;
+    width:608px;
+    flex-flow: row wrap;
+}
+.flex-item{
+    width:150px;
+    height: 120px;
+    background: black;
+    color:white;
+    border: 1px solid white;
+    text-align: end;
+    font-size: 34px;
+    font-family: fantasy;
+}
